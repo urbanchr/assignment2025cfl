@@ -78,8 +78,8 @@ case class If(a: BExp, bl1: Block, bl2: Block) extends Stmt
 case class While(b: BExp, bl: Block) extends Stmt
 case class Assign(s: String, a: AExp) extends Stmt
 case class Read(s: String) extends Stmt
-case class WriteId(s: String) extends Stmt  // for printing values of variables
-case class WriteString(s: String) extends Stmt  // for printing words
+case class WriteVar(s: String) extends Stmt     // for printing values of variables
+case class WriteString(s: String) extends Stmt  // for printing strings
 
 case class Var(s: String) extends AExp
 case class Num(i: Int) extends AExp
@@ -127,9 +127,9 @@ def test(file: String) = {
   val contents = os.read(os.pwd / "examples" / file)
   println(s"Lex $file: ")
   val tks = tokenise(contents)
-  println(tk.mkString(","))
+  println(tks.mkString(","))
   println(s"Parse $file: ")
-  val ast = Stmts.parse_all(tk).head
+  val ast = Stmts.parse_all(tks).head
   println(ast)
   println(s"Eval $file: ")
   println(eval(ast))
