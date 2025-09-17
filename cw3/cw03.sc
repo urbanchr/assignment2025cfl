@@ -12,16 +12,9 @@
 
 // IMPORTANT:
 //
-// you need to include the lexer from CW2, which defines
-// Tokens and tokenise
-// 
-// one way to do it is via the import statements
-//
-//import $file.^.cw2.cw02
-//import cw02._
-//
-// or copy the code into this directory / file
-// 
+// You should include the lexer from CW2, which defines
+// Tokens and tokenise. Copy the adapted files to this
+// directory and add them to the repository.
 
 
 // parser combinators
