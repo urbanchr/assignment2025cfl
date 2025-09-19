@@ -1,7 +1,7 @@
 # CFL CW5
 
 
-* [CW5 description](https://nms.kcl.ac.uk/christian.urban/cfl/cws/cw04.pdf) (Marks 25%, deadline 2 Jan, 16:00)
+* [CW5 description](https://cflmark.nms.kcl.ac.uk/hg/afl-material/raw-file/tip/cws/cw06.pdf) (Marks 25%)
 
 
 For CW5 you will need an external assembler for the LLVM-IR.

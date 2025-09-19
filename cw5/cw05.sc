@@ -2,7 +2,7 @@
 
 
 // Abstract Syntax Trees for the typed Fun-language
-// (this can be part of the parser file, if mor convenient)
+// (this can be part of the parser file, if more convenient)
 
 abstract class Exp
 abstract class BExp

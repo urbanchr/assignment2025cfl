@@ -1,7 +1,7 @@
 # CFL CW4
 
 
-* [CW4 description](https://nms.kcl.ac.uk/christian.urban/cfl/cws/cw04.pdf) (Marks 15%, deadline 14 Dec, 16:00)
+* [CW4 description](https://cflmark.nms.kcl.ac.uk/hg/afl-material/raw-file/tip/cws/cw04.pdf) (Marks 15%)
 
 
 For CW4 you will need an external assembler for the JVM. There are two options:

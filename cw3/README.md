@@ -1,10 +1,10 @@
 # CFL CW3
 
 
-* [CW3 description](https://nms.kcl.ac.uk/christian.urban/cfl/cws/cw03.pdf) 
+* [CW3 description](https://cflmark.nms.kcl.ac.uk/hg/afl-material/raw-file/tip/cws/cw03.pdf) 
 
-* add your code to `cw03.sc` (you need to make sure that the lexer from CW2
-is loaded in your code)
+* Add your code to `cw03.sc` (you need to make sure that the lexer from CW2
+is copied and loaded in your code)
 
 * sample files are in the `examples` directory
 
